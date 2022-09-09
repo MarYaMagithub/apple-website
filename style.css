@@ -1,0 +1,428 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'roboto', sans-serif;
+    }
+    
+    .row {
+        width: 100vw;
+    }
+    
+    .row .container {
+        max-width: 980px;
+        margin: auto;
+    }
+    
+    .nav-bar .container {
+        max-width: 980px;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .icons {
+        width: 20px;
+    }
+    
+    .logo {
+        width: 40px;
+    }
+    
+    .cta-nav {
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu {
+        flex: 1;
+    }
+    
+    .menu ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+    }
+    
+    .menu ul li {
+        font-size: 14px;
+    }
+    
+    .menu ul li a {
+        text-decoration: none;
+        color: #ffffb7;
+    }
+    
+    .menu ul li a:hover {
+        color: white;
+    }
+    
+    .nav-bar {
+        height: 45px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.92);
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    
+    .unicef {
+        padding: 10px;
+        background-color: #f3f3f3;
+    }
+    
+    .unicef .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .unicef a {
+        text-decoration: none;
+    }
+    
+    .unicef {
+        font-size: 13px;
+        font-weight: 400;
+        color: #06c;
+    }
+    
+    .unicef:hover {
+        text-decoration: underline;
+    }
+    
+    .iphone-13 {
+        height: 580px;
+        width: 100%;
+        background-image: url(image/hero_iphone13pro_avail__iy77cld0zwii_medium.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding: 40px;
+    }
+    
+    .iphone-13 h1 {
+        font-size: 54px;
+    }
+    
+    .iphone-13 p {
+        font-size: 24px;
+    }
+    
+    .cta {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    
+    .cta a {
+        text-decoration: none;
+        color: #06c;
+    }
+    
+    .cta a:hover {
+        text-decoration: underline;
+    }
+    
+    .iphone-se {
+        margin-top: 15px;
+        height: 730px;
+        width: 100%;
+        background-image: url(image/images.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .iphone-se h1 {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    
+    .iphone-se p {
+        font-size: 20px;
+    }
+    
+    .cta {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    
+    .cta a {
+        text-decoration: none;
+        color: #06c;
+    }
+    
+    .cta a:hover {
+        text-decoration: underline;
+    }
+    
+    .heading-se {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    h1#se {
+        font-size: 20px;
+        border: 3px solid black;
+        padding: 4px;
+        border-radius: 8px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .row-ipad-air {
+        width: 100%;
+        height: 620px;
+        background-image: url(./image/ipad-air_overview__cahgij9otxua_og.png);
+        background-position: center;
+        background-size: contain;
+    }
+    
+    .row-ipad-air .ipad {
+        max-width: 970;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        font-size: 28px;
+    }
+    
+    .ipad .contant h1 {
+        color: white;
+        margin-left: 150px;
+        margin-top: 130px;
+    }
+    
+    .ipad .contant p {
+        color: white;
+        font-size: 20px;
+        margin-left: 150px;
+    }
+    
+    .ipad .contant .cta {
+        margin-left: 120px;
+        font-size: 20px;
+    }
+    
+    .col-display {
+        width: 100%;
+    }
+    
+    .col-display h1 {
+        text-align: center;
+        margin-top: -120px;
+    }
+    
+    .col-display p {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .col-display .cta-small {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .cta-small a {
+        text-decoration: none;
+        color: #06c;
+    }
+    
+    .cta-small a:hover {
+        text-decoration: underline;
+    }
+    
+    .products {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 25px;
+        margin: 0px 30px;
+    }
+    
+    .products .col-display {
+        height: 500px;
+        background-image: url(./image/download.jpg);
+        background-position: center;
+        margin-top: 150px;
+        background-size: contain;
+        flex: 1;
+    }
+    
+    .col-studio {
+        width: 100%;
+    }
+    
+    .products .col-studio {
+        height: 500px;
+        background-image: url(./image/images\ \(2\).jpg);
+        background-position: center;
+        margin-top: 150px;
+        background-size: cover;
+        flex: 1;
+    }
+    
+    .col-studio h1 {
+        text-align: center;
+        margin-top: -120px;
+    }
+    
+    .col-studio p {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .col-studio .cta-small {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .col-13pro {
+        width: 100%;
+    }
+    
+    .products .col-13pro {
+        height: 400px;
+        background-image: url(./image/hero_iphone13_avail__gnqqkzuai6um_medium.jpg);
+        background-position: center;
+        margin-top: 150px;
+        background-size: cover;
+        flex: 1;
+    }
+    
+    .col-13pro h1 {
+        text-align: center;
+        margin-top: -120px;
+    }
+    
+    .col-13pro p {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .col-13pro .cta-small {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .col-mac {
+        width: 100%;
+    }
+    
+    .products .col-mac {
+        height: 400px;
+        background-image: url(./image/promo_watch_lte__djeaso7ukrsm_medium.jpg);
+        background-position: center;
+        margin-top: 150px;
+        background-size: cover;
+        flex: 1;
+    }
+    
+    .col-mac h1 {
+        text-align: center;
+        margin-top: -120px;
+    }
+    
+    .col-mac p {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .col-mac .cta-small {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .col-12pro {
+        width: 100%;
+    }
+    
+    .products .col-12pro {
+        height: 400px;
+        background-image: url(./image/drYWUJb3AjShuf49bstDS3-1200-80.jpg);
+        background-position: center;
+        margin-top: 150px;
+        background-size: cover;
+        flex: 1;
+    }
+    
+    .col-12pro h1 {
+        text-align: center;
+        margin-top: -120px;
+    }
+    
+    .col-12pro p {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .col-12pro .cta-small {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    .col-iphone {
+        width: 100%;
+    }
+    
+    .products .col-iphone {
+        height: 400px;
+        background-image: url(./image/iphoon.webp);
+        background-position: center;
+        margin-top: 150px;
+        background-size: cover;
+        flex: 1;
+    }
+    
+    .col-iphone h1 {
+        text-align: center;
+        margin-top: -120px;
+    }
+    
+    .col-iphone p {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .col-iphone .cta-small {
+        text-align: center;
+        padding: 5px;
+    }
+    
+    footer {
+        width: 100%;
+        height: 50px;
+    }
+    
+    footer h5 {
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    footer p {
+        width: 100%;
+        height: 35px;
+        background-color: rgb(1, 4, 10);
+        text-align: center;
+        font-size: 24px;
+        color: rgb(252, 253, 253);
+        margin-top: 20px;
+    }
